@@ -1,0 +1,16 @@
+# Steps :->
+
+1) for outer loop,counts no of rows 
+
+2) for inner loop,focus no of columns
+and connect them somehow to *rows and **input size and ***(some constants like */-)
+
+   * Count like this:-> row -> col
+   connect  columns output according to "row number(i)"
+
+3) Print "*" in inner for loop
+
+4) Observe Symmetry [Optional]
+
+think of i,j,n with +,-,*,/
+and for alphabet think of same with ASCII codes.

@@ -1,0 +1,247 @@
+1. Core Java (Foundation)
+   ├── Basics
+   │   ├── History of Java
+   │   ├── JDK, JRE, JVM
+   │   ├── Variables & Constants
+   │   ├── Data Types (primitive, non-primitive)
+   │   ├── Operators (Arithmetic, Relational, Logical, Bitwise, Assignment)
+   │   └── Type Casting (Implicit, Explicit)
+   │
+   ├── Control Statements
+   │   ├── Conditional Statements
+   │   │   ├── if
+   │   │   ├── if-else
+   │   │   ├── if-else-if ladder
+   │   │   └── switch
+   │   ├── Looping Statements
+   │   │   ├── for
+   │   │   ├── while
+   │   │   └── do-while
+   │   └── Jump Statements (break, continue, return)
+   │
+   ├── OOPs Concepts
+   │   ├── Classes & Objects
+   │   ├── Constructors
+   │   ├── Inheritance
+   │   │   ├── Single
+   │   │   ├── Multilevel
+   │   │   └── Hierarchical
+   │   ├── Polymorphism
+   │   │   ├── Compile-time (Method Overloading)
+   │   │   └── Runtime (Method Overriding)
+   │   ├── Abstraction
+   │   │   ├── Abstract Class
+   │   │   └── Interfaces
+   │   └── Encapsulation (Getters & Setters)
+   │
+   ├── Exception Handling
+   │   ├── try-catch
+   │   ├── finally
+   │   ├── throw
+   │   ├── throws
+   │   └── Custom Exceptions
+   │
+   ├── Collections Framework
+   │   ├── List
+   │   │   ├── ArrayList
+   │   │   └── LinkedList
+   │   ├── Set
+   │   │   ├── HashSet
+   │   │   └── TreeSet
+   │   ├── Map
+   │   │   ├── HashMap
+   │   │   └── TreeMap
+   │   └── Queue
+   │       ├── PriorityQueue
+   │       └── Deque
+   │
+   ├── Generics, Streams & Lambda
+   │   ├── Generics (Type safety)
+   │   ├── Functional Interfaces
+   │   ├── Lambda Expressions
+   │   └── Stream API (map, filter, reduce)
+   │
+   ├── File Handling & I/O
+   │   ├── FileReader & FileWriter
+   │   ├── BufferedReader & BufferedWriter
+   │   ├── InputStream & OutputStream
+   │   └── Serialization & Deserialization
+   │
+   └── Multithreading & Concurrency
+       ├── Thread class & Runnable interface
+       ├── Thread lifecycle
+       ├── Synchronization
+       ├── Executors
+       └── Concurrent Collections
+
+
+2. Advanced Java
+   ├── JDBC (Java Database Connectivity)
+   │   ├── DriverManager, Connection, Statement, ResultSet
+   │   ├── PreparedStatement
+   │   └── Transaction Management
+   │
+   ├── Servlets
+   │   ├── Servlet Lifecycle
+   │   ├── Request & Response
+   │   ├── doGet() & doPost()
+   │   └── Session Management (Cookies, HttpSession)
+   │
+   ├── JSP (Java Server Pages)
+   │   ├── Scripting elements
+   │   │   ├── Declarations
+   │   │   ├── Scriptlets
+   │   │   └── Expressions
+   │   ├── Directives
+   │   │   ├── page
+   │   │   ├── include
+   │   │   └── taglib
+   │   └── JSTL (JSP Standard Tag Library)
+   │
+   ├── MVC Pattern
+   │   ├── Model
+   │   ├── View
+   │   └── Controller
+   │
+   └── ORM with JPA / Hibernate
+       ├── Hibernate Basics
+       ├── Annotations
+       ├── Mapping (One-to-One, One-to-Many, Many-to-Many)
+       └── HQL (Hibernate Query Language)
+
+
+3. Spring Framework
+   ├── Spring Core
+   │   ├── IoC (Inversion of Control)
+   │   ├── DI (Dependency Injection)
+   │   │   ├── Constructor Injection
+   │   │   └── Setter Injection
+   │   └── Bean Lifecycle
+   │
+   ├── Spring MVC
+   │   ├── DispatcherServlet
+   │   ├── Controllers
+   │   ├── ViewResolvers
+   │   └── Form Handling
+   │
+   ├── Spring Boot
+   │   ├── Auto Configuration
+   │   ├── Annotations (@RestController, @Autowired, etc.)
+   │   ├── REST APIs (CRUD operations)
+   │   ├── Spring Data JPA (Repository pattern)
+   │   ├── Exception Handling
+   │   └── Spring Security (JWT, Authentication, Authorization)
+   │
+   └── Microservices (Optional but valuable)
+       ├── Spring Cloud Basics
+       ├── Service Discovery (Eureka)
+       ├── API Gateway
+       ├── Config Server
+       └── Circuit Breaker (Resilience4j)
+
+
+4. Frontend (for Full Stack)
+   ├── HTML
+   │   ├── Elements & Attributes
+   │   ├── Forms
+   │   └── Semantic HTML
+   │
+   ├── CSS
+   │   ├── Selectors
+   │   ├── Flexbox & Grid
+   │   ├── Media Queries (Responsive Design)
+   │   └── Animations & Transitions
+   │
+   ├── JavaScript
+   │   ├── Variables & Functions
+   │   ├── DOM Manipulation
+   │   ├── ES6 Features (let, const, arrow functions, promises)
+   │   └── Async/Await
+   │
+   ├── CSS Frameworks
+   │   ├── Bootstrap
+   │   └── Tailwind CSS
+   │
+   ├── TypeScript (Optional)
+   │   ├── Types
+   │   ├── Interfaces
+   │   └── Classes
+   │
+   └── Angular / React (Choose one)
+       ├── Project Setup
+       ├── Components
+       ├── Props & State (React) / Data Binding (Angular)
+       ├── Event Handling
+       ├── Routing
+       ├── API Integration (Axios/Fetch/HttpClient)
+       └── Authentication (JWT / OAuth)
+
+
+5. Database
+   ├── SQL Basics
+   │   ├── CREATE, INSERT, UPDATE, DELETE
+   │   ├── SELECT, WHERE, ORDER BY
+   │   └── Aggregate Functions (SUM, COUNT, AVG)
+   │
+   ├── Joins
+   │   ├── INNER JOIN
+   │   ├── LEFT JOIN
+   │   └── RIGHT JOIN
+   │
+   ├── Indexing & Optimization
+   │   ├── Indexes
+   │   ├── Views
+   │   └── Stored Procedures
+   │
+   ├── Database Design
+   │   ├── Normalization
+   │   ├── ER Diagrams
+   │   └── Relationships
+   │
+   └── NoSQL (Optional)
+       ├── MongoDB Basics
+       ├── CRUD Operations
+       └── Aggregation
+
+
+6. Tools & Deployment
+   ├── Version Control
+   │   ├── Git Basics
+   │   ├── Branching & Merging
+   │   └── GitHub (Repositories, Pull Requests)
+   │
+   ├── Build Tools
+   │   ├── Maven
+   │   └── Gradle
+   │
+   ├── API Testing
+   │   └── Postman
+   │
+   ├── Deployment (Optional Advanced)
+   │   ├── Docker
+   │   ├── CI/CD (Jenkins, GitHub Actions)
+   │   └── Cloud Basics (AWS, Azure, GCP)
+
+
+7. Projects (Portfolio Building)
+   ├── Bank Management System
+   │   ├── Backend: Spring Boot + JPA + MySQL
+   │   ├── Frontend: React/Angular
+   │   └── Features: Deposit, Withdraw, Balance, Authentication
+   │
+   ├── E-Commerce App
+   │   ├── Product Catalog
+   │   ├── Shopping Cart
+   │   ├── Order & Payment Integration
+   │   └── Admin Panel
+   │
+   ├── Student Management System
+   │   ├── CRUD Operations
+   │   ├── Authentication & Authorization
+   │   └── Search & Filters
+   │
+   └── Blog/Forum Application
+       ├── User Registration & Login
+       ├── Post Creation & Comments
+       ├── Like/Dislike
+       └── Role-based Access

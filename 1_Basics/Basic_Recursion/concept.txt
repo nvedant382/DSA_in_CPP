@@ -1,0 +1,8 @@
+Recursion:-> 
+    When a function calls itself until a specified condition is met.
+
+StackOverflow/segmentation :
+    it happens when a program runs out of stack memory, usually due to 
+    infinite recursion or excessive function calls. Basically, 
+    your function keeps calling itself until the stack memory is 
+    completely used up.

@@ -1,0 +1,41 @@
+Time Complexity :-> 
+    Rate at which time taken increases with respect to input size.
+
+    -> always compute T.C. at worst scenario.
+    -> avoid constants
+    -> avoid lower values
+
+Ex. 1)
+
+    for(int i=0;i<N;i++){
+        for(int j=0;j<N;j++){
+
+        }
+    }
+
+    Checking overall Iteration :
+    T.C. = O(N*N) // N(i) times N(j) is running
+
+Ex. 2)
+
+    for(int i=0;i<N;i++){
+        for(int j=0;j<=i;j++){
+
+        }
+    }
+
+    T.C. :-> O(N*(N+1)/2) which is nearly O(N^2)
+
+S.C. :-> "Memory Space" program takes
+
+S.C. is 1] Auxiliary Space + 2] Input Space
+
+1] Space that you take to solve problem
+2] Space that you take to store the input
+
+Ex. int a[N] then S.C. is O(N)
+
+-> (Don't manipulate Input Data)
+
+Most of the server took 1s for 10^8 Operations
+for 2s it is 2*(10^8)
